@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+//顶部搜索
+.searchBox {
+    width: calc(95% - 30px);
+    height: 70px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .new {
+        width: 130px;
+    }
+}
+
+.list {
+    width: 95%;
+    height: calc(100% - 100px);
+    margin: 0 auto;
+
+    .tables {
+        width: 100%;
+        height: calc(100% - 50px);
+    }
+
+    .pages {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
