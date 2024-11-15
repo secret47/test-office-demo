@@ -14,7 +14,7 @@ export default defineConfig({
       '@':path.resolve(__dirname, 'src'),
     }
   },
-  base: "./",
+  base: "test-office-demo",
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
